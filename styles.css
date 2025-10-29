@@ -1,7 +1,36 @@
-#desk{
-    max-width: 400px;
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/roboto/Roboto-Regular.ttf');
 }
 
-#couch{
-    max-width: 400px;
+:root {
+    font-family: 'Roboto';
+}
+
+#desk {
+    max-height: 400px;
+}
+
+#couch {
+    max-height: 400px;
+}
+
+.icon-button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.icon-button.large {
+    height: 2em;
+}
+
+.icon-button.small {
+    height: 1.5em;
+}
+
+.icon {
+    height: 100%;
+    display: inline-block;
 }
